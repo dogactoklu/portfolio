@@ -5,6 +5,10 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+	background-image: url(/src/media/backg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 code {
@@ -18,11 +22,15 @@ h1 {
 }
 
 .card_container {
-	background-color: #313131;
 	border-radius: 50px;
+	backdrop-filter: blur(50px);
+	-webkit-backdrop-filter: blur(50px);
 	width: 400px;
 	height: 600px;
 	padding: 40px;
 	margin: auto;
 	margin-top: 100px;
+	margin-bottom: 150px;
+	background-color: rgba(40, 40, 40, 0.75);
+	box-shadow: rgba(40, 40, 40, 0.75);
 }

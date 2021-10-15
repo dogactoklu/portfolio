@@ -22,8 +22,12 @@ const analytics = getAnalytics(app);
 function App() {
 	return (
 		<div className="App">
-			<Card text='Deneme' 
-			text2='poopoo?'/>
+			<image url="media/backg.jpg" className="backgee">
+				<Card 
+					text='Deneme' 
+					text2='props test2'
+				/>
+			</image>
 		</div>
 	);
 }

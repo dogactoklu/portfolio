@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Card from './components/Card'
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -22,9 +22,8 @@ const analytics = getAnalytics(app);
 function App() {
 	return (
 		<div className="App">
-			<body>
-				<h1 class="plop">Hello World!</h1>
-			</body>
+			<Card text='Deneme' 
+			text2='poopoo?'/>
 		</div>
 	);
 }
